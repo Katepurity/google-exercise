@@ -1,0 +1,100 @@
+    * {
+        font-family: sans-serif;
+        font-size: 12px;
+    }
+    header p{
+        display: inline;
+        padding-right: 40px;
+        margin: 10px;
+    }
+    .one {
+        text-align:end;
+        align-items: center;
+    }
+    .three {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid lightgray 0.2px;
+        border-radius: 30px;
+        padding: 8px;
+        max-width: 500px;
+        cursor: pointer;
+    }
+    .three img {
+        padding-right: 25px;
+    }
+    button {
+        border: none;
+        background-color: white;
+        padding: 0px;
+        margin: 0px;
+    }
+    input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        width: 350px;
+        }
+        .four {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    .four p {
+        margin-right: 20px;
+        padding: 10px;
+        font-size: 13px;
+        background-color: rgba(211, 211, 211, 0.2);
+    }
+
+    .five {
+        padding: 20px;
+        font-size: 13px;
+        margin-bottom: 100px;
+        padding-right: 40px;
+    }
+    a {
+        text-decoration: none;
+        text-align: center;
+        font-size: 13px;
+        padding: 2px;
+        }
+    footer {
+        background-color: rgba(211, 211, 211, 0.3);
+        color: darkgray;
+        margin-top: 100px;
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+    footer p {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .six, .seven {
+        display: inline;
+    }
+    .six {
+        padding-right: 400px;
+    }
+    .six a {
+        font-size: 14px;
+        padding-right: 20px;
+    }
+    .seven {
+        padding-left: 300px;
+    }
+    .seven a {
+        font-size: 14px;
+        padding-right: 20px;
+    }
+    hr {
+        border-top: 0.1px solid lightgray;
+        padding: 2px;
+    }
+    .two, .three, .five {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
